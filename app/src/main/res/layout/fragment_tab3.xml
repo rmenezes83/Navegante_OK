@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="641dp"
+        android:layout_height="478dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="244dp"
+        android:text='                                                   Direito e Obrigações dos Usuários
+
+Você tem direito a:
+
+Comprar a sua passagem com antecedência mínima de até 7 dias;
+- Ter seu lugar garantido em até 30 minutos antes do horário de partida, quando adquirir passagem antecipada;
+- Ser auxiliado no embarque e desembarque;
+- Viajar com pontualidade;
+- Ser tratado com cortesia e urbanidade;
+- Ser transportado em embarcação limpa e segura;
+- Ser ressarcido do valor da passagem em caso de interrupção da viagem;
+- Ter alimentação gratuita quando a interrupção da viagem ultrapassar a 4 horas;
+- Ter alimentação e pousada gratuitas se a interrupção da viagem ultrapassar a 12 horas.
+
+Você NÃO poderá embarcar se:
+
+- Não se identificar, quando exigido;
+- Estiver em estado de embriaguês;
+- Portar arma, de qualquer espécie, quando não autorizado;
+- Comprometer a segurança, o conforto ou a tranqüilidade dos demais usuários;
+- Fizer uso de aparelho sonoro, quando advertido pela tripulação;
+- Fizer uso de fumo ou de substâncias tóxicas;
+- Recusar-se ao pagamento da tarifa.'
+
+        android:textSize='16dp'
+
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="119dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="96dp"
+        app:srcCompat="@mipmap/logonavegante"/>
+
+    <ImageView
+        android:id="@+id/imgTitulo"
+        android:layout_width="174dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="112dp"
+        app:srcCompat="@mipmap/certonavegante"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+</RelativeLayout>
